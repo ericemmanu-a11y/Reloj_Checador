@@ -18,7 +18,7 @@ Para utilizar esta aplicación **no es necesario saber Python ni programar**. Ba
 
 ### Pasos Rápidos en Windows:
 1. En GitHub, dale a **`Code` -> `Download ZIP`** y extraelo donde gustes.
-2. Adentro de los archivos, dirígete a la ruta exclusiva del ejecutable: `ZKManager/dist_v6/ZKManager`.
+2. Adentro de los archivos, dirígete a la carpeta exclusiva del sistema: `ZKManager/Ejecutable_Windows/`.
 3. Dale doble clic al archivo de la aplicación principal **`ZKManager.exe`**.
 4. ¡El Gestor Elite comenzará!
 
