@@ -1,0 +1,15 @@
+{
+    "turnos": {
+        "1": {
+            "nombre": "Administrativo",
+            "entrada": "09:00",
+            "salida": "18:00"
+        },
+        "2": {
+            "nombre": "Operativo",
+            "entrada": "08:00",
+            "salida": "17:00"
+        }
+    },
+    "usuarios_turnos": {}
+}
