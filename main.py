@@ -1,8 +1,10 @@
 import customtkinter
 import threading
+import multiprocessing
+import socket
 from tkinter import messagebox, ttk
 from tkcalendar import Calendar
-from datetime import datetime, timedelta
+from datetime import datetime, time, timedelta
 
 from config import load_config, save_config
 from zk_service import ZKService
@@ -689,5 +691,6 @@ class App(customtkinter.CTk):
             messagebox.showerror("Inválido", "Asigna una ruta IPv4.")
 
 if __name__ == "__main__":
+    multiprocessing.freeze_support() # Esencial para PyInstaller en Windows con CustomTkinter/Pandas
     app = App()
     app.mainloop()
